@@ -1,15 +1,10 @@
 package homework7;
 
-class Circle extends Shape {
-
-
-    public Circle(String name){
-        super(name);
-    }
-
+public class Circle implements Shape{
+    private final String NAME = "Circle";
 
     @Override
-    public void returnName() {
-        System.out.println("Circle: " + getName());
+    public String getName() {
+        return NAME;
     }
 }

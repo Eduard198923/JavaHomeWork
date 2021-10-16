@@ -1,15 +1,10 @@
 package homework7;
 
-class Star extends Shape {
-
-
-    public Star(String name){
-        super(name);
-    }
-
+public class Star implements Shape{
+    private final String NAME = "Circle";
 
     @Override
-    public void returnName() {
-        System.out.println("Star: " + getName());
+    public String getName() {
+        return NAME;
     }
 }

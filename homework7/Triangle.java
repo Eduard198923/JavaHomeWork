@@ -1,17 +1,11 @@
 package homework7;
 
 
-    class Triangle extends Shape {
+public class Triangle implements Shape{
+    private final String NAME = "Triangle";
 
-
-        public Triangle(String name){
-            super(name);
-        }
-
-
-        @Override
-        public void returnName() {
-            System.out.println("Triangle: " + getName());
-        }
+    @Override
+    public String getName() {
+        return NAME;
     }
-
+}

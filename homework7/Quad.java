@@ -1,15 +1,10 @@
 package homework7;
 
-class Quad extends Shape {
-
-
-    public Quad(String name){
-        super(name);
-    }
-
+public class Quad implements Shape{
+    private final String NAME = "Quad";
 
     @Override
-    public void returnName() {
-        System.out.println("Quad: " + getName());
+    public String getName() {
+        return NAME;
     }
 }

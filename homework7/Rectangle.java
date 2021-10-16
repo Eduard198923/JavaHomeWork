@@ -1,15 +1,10 @@
 package homework7;
 
-class Rectangle extends Shape {
-
-
-    public Rectangle(String name){
-        super(name);
-    }
-
+public class Rectangle implements Shape{
+    private final String NAME = "Rectangle";
 
     @Override
-    public void returnName() {
-        System.out.println("Rectangle: " + getName());
+    public String getName() {
+        return NAME;
     }
 }
