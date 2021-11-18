@@ -2,7 +2,7 @@ package homework7;
 
 
 public class Triangle implements Shape{
-    private final String NAME = "Triangle";
+     final String NAME = "Triangle";
 
     @Override
     public String getName() {
