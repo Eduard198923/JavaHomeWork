@@ -1,4 +1,4 @@
-package homework8.homework8Five;
+package myCollections.homework8Five;
 
 public class  HashMap<K, V> {
 
@@ -158,22 +158,7 @@ public class  HashMap<K, V> {
 
         }
 
-        public static void main(String[] args) {
-            HashMapImpl<Integer, String> hashMap = new HashMapImpl<Integer, String>();
-            hashMap.put(10, "Apple");
-            hashMap.put(1, "Orange");
-            hashMap.put(79, "Grape");
-            System.out.println("Val at 79 "+hashMap.get(79));
-            System.out.println("Val at 1 "+hashMap.get(1));
-            System.out.println("Val at 10 "+hashMap.get(10));
-            System.out.println("Val at 2 "+hashMap.get(2));
-            hashMap.put(null, "Pear");
-            System.out.println("Size of Map:"+hashMap.size());
-            System.out.println("Val at null "+hashMap.get(null));
-            hashMap.remove(10);
-            System.out.println("Size of Map:"+hashMap.size());
-            hashMap.clear();
-            System.out.println("Size of Map:"+hashMap.size());
+
         }
-}
+
 
